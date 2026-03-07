@@ -2,7 +2,7 @@ import { experience } from '../utils';
 
 export const Experience = () => {
   return (
-    <section className='border-t border-white/10 px-6 py-24'>
+    <section id='experience' className='border-t border-white/10 px-6 py-24'>
       <div className='mx-auto max-w-5xl'>
         <p className='mb-4 text-sm uppercase tracking-[0.3em] text-neutral-400'>
           Experience

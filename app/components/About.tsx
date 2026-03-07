@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <section className='border-t border-white/10 px-6 py-24'>
+    <section id='about' className='border-t border-white/10 px-6 py-24'>
       <div className='mx-auto grid max-w-5xl gap-10 md:grid-cols-2'>
         <div>
           <p className='mb-4 text-sm uppercase tracking-[0.3em] text-neutral-400'>

@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <section className='mx-auto flex min-h-screen max-w-5xl items-center px-6 py-20'>
+    <section id='home' className='relative overflow-hidden'>
       <div className='max-w-3xl'>
         <p className='mb-4 text-sm uppercase tracking-[0.3em] text-neutral-400'>
           Portfolio
