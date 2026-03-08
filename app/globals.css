@@ -32,3 +32,49 @@ html {
 ::-webkit-scrollbar {
   display: none;
 }
+
+@keyframes mistMove1 {
+  0% {
+    transform: translate3d(0%, 0%, 0) scale(1);
+  }
+  25% {
+    transform: translate3d(-2%, 1%, 0) scale(1.03);
+  }
+  50% {
+    transform: translate3d(-4%, 2%, 0) scale(1.06);
+  }
+  75% {
+    transform: translate3d(-2%, 1%, 0) scale(1.04);
+  }
+  100% {
+    transform: translate3d(0%, 0%, 0) scale(1);
+  }
+}
+
+@keyframes mistMove2 {
+  0% {
+    transform: translate3d(0%, 0%, 0) scale(1);
+  }
+  25% {
+    transform: translate3d(2%, -1%, 0) scale(1.04);
+  }
+  50% {
+    transform: translate3d(4%, -2%, 0) scale(1.08);
+  }
+  75% {
+    transform: translate3d(2%, -1%, 0) scale(1.05);
+  }
+  100% {
+    transform: translate3d(0%, 0%, 0) scale(1);
+  }
+}
+
+.animate-mist-1 {
+  animation: mistMove1 24s linear infinite;
+  will-change: transform;
+}
+
+.animate-mist-2 {
+  animation: mistMove2 30s linear infinite;
+  will-change: transform;
+}
