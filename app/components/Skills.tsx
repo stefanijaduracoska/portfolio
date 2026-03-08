@@ -32,7 +32,7 @@ export const Skills = () => {
             Skills & tools
           </h2>
 
-          <p className='mt-5 max-w-2xl text-base leading-8 text-neutral-400 sm:text-lg'>
+          <p className='mt-5 max-w-2xl text-lg leading-8 text-neutral-400 sm:text-lg'>
             A quick look at the technologies I work with most.
           </p>
         </div>

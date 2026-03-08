@@ -15,13 +15,15 @@ export const Projects = () => {
               Things I&apos;ve worked on
             </h2>
 
-            <p className='mt-4 text-base leading-8 text-neutral-400'>
+            <p className='mt-4 text-lg leading-8 text-neutral-400'>
               A curated selection of products and systems I&apos;ve contributed
               to across frontend, full-stack and platform-focused work.
             </p>
           </div>
 
-          <p className='text-sm text-neutral-500 md:pb-2'>Scroll to explore</p>
+          <p className='text-base text-neutral-500 md:pb-2'>
+            Scroll to explore
+          </p>
         </div>
 
         <div className='overflow-x-auto overflow-y-visible py-4 [scrollbar-width:none]'>
