@@ -6,18 +6,35 @@ import {
   Experience,
   Contact,
   Navbar,
+  Reveal,
 } from './components';
 
 export default function Home() {
   return (
     <main className='min-h-screen bg-neutral-950 text-white'>
       <Navbar />
+
       <Hero />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Contact />
+
+      <Reveal>
+        <About />
+      </Reveal>
+
+      <Reveal>
+        <Skills />
+      </Reveal>
+
+      <Reveal>
+        <Experience />
+      </Reveal>
+
+      <Reveal>
+        <Projects />
+      </Reveal>
+
+      <Reveal>
+        <Contact />
+      </Reveal>
     </main>
   );
 }
