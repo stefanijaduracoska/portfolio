@@ -28,7 +28,7 @@ export const Hero = () => {
 
           <div className='mt-14 flex flex-wrap gap-5'>
             <a
-              href='/Stefanija-Duracoska-CV.pdf'
+              href='/Stefanija-Duracoska-Resume.pdf'
               download
               className='rounded-full bg-white px-8 py-4 text-base font-medium text-black transition duration-300 hover:scale-[1.03]'
             >
