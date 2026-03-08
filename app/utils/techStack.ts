@@ -10,7 +10,7 @@ export const techStack = [
       'Tailwind CSS',
       'Material UI',
       'TanStack Query',
-      'tRPC',
+      'tRPC Client',
     ],
   },
   {

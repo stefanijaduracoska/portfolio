@@ -3,30 +3,74 @@ export const projects = [
     title: 'Speech Analytics Platform',
     description:
       'Frontend interfaces and data visualizations for a speech analytics platform used by a major bank in Poland.',
-    tech: ['React', 'TypeScript', 'APIs', 'Data Visualization'],
+    primaryTech: ['React', 'TypeScript', 'TanStack Query'],
+    secondaryTech: [
+      'Tailwind CSS',
+      'Material UI',
+      'Storybook',
+      'REST APIs',
+      'JWT Authentication',
+      'Zod',
+    ],
   },
   {
     title: 'Contact Center System',
     description:
       'Configuration interfaces for managing system parameters and platform settings in an enterprise contact-center platform.',
-    tech: ['React', 'Next.js', 'TypeScript', 'Tailwind'],
+    primaryTech: ['React', 'Next.js', 'TypeScript', 'tRPC Client'],
+    secondaryTech: [
+      'Tailwind CSS',
+      'Material UI',
+      'TanStack Query',
+      'Storybook',
+      'REST APIs',
+      'JWT Authentication',
+      'Zod',
+    ],
   },
   {
     title: 'Hotel IPTV Platform',
     description:
       'Full-stack features for an IPTV platform used on smart TVs in hotel rooms.',
-    tech: ['React', 'Node.js', 'TypeScript'],
+    primaryTech: ['React', 'NestJS', 'PostgreSQL'],
+    secondaryTech: [
+      'TypeScript',
+      'Tailwind CSS',
+      'Node.js',
+      'TypeORM',
+      'REST APIs',
+      'JWT Authentication',
+      'Zod',
+    ],
   },
   {
     title: 'Fitness Coaching SaaS',
     description:
       'A platform for coaches to manage clients, training programs and nutrition plans.',
-    tech: ['React', 'Node.js', 'PostgreSQL'],
+    primaryTech: ['React', 'NestJS', 'PostgreSQL'],
+    secondaryTech: [
+      'TypeScript',
+      'Material UI',
+      'Node.js',
+      'TypeORM',
+      'REST APIs',
+      'JWT Authentication',
+      'Zod',
+    ],
   },
   {
-    title: 'Organic food Marketplace',
+    title: 'Organic Food Marketplace',
     description:
       'An online marketplace allowing local farmers and vendors to sell food products directly to customers.',
-    tech: ['React', 'Node.js', 'PostgreSQL'],
+    primaryTech: ['React', 'LoopBack 4', 'PostgreSQL'],
+    secondaryTech: [
+      'TypeScript',
+      'Tailwind CSS',
+      'Node.js',
+      'TypeORM',
+      'REST APIs',
+      'JWT Authentication',
+      'Zod',
+    ],
   },
 ];
