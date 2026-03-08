@@ -1,7 +1,6 @@
 export const navItems = [
-  { label: 'About', href: '#about' },
+  { label: 'Skills', href: '#tech' },
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Tech', href: '#tech' },
   { label: 'Contact', href: '#contact' },
 ];

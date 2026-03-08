@@ -46,7 +46,7 @@ export const Skills = () => {
                 key={group.key}
                 type='button'
                 onClick={() => setActiveKey(group.key)}
-                className={`rounded-full border px-5 py-3 text-sm font-medium transition duration-300 ${
+                className={`rounded-full border px-5 py-3 text-sm font-medium transition duration-300 cursor-pointer ${
                   isActive
                     ? activeTabStyles
                     : 'border-white/10 bg-white/3 text-neutral-300 hover:border-white/20 hover:bg-white/5 hover:text-white'
