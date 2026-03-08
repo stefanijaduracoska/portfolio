@@ -24,7 +24,7 @@ export const projects = [
     tech: ['React', 'Node.js', 'PostgreSQL'],
   },
   {
-    title: 'Organico Marketplace',
+    title: 'Organic food Marketplace',
     description:
       'An online marketplace allowing local farmers and vendors to sell food products directly to customers.',
     tech: ['React', 'Node.js', 'PostgreSQL'],
