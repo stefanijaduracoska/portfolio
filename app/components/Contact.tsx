@@ -2,7 +2,10 @@ import { Mail, Linkedin, Github } from 'lucide-react';
 
 export const Contact = () => {
   return (
-    <section id='contact' className='border-t border-white/10 py-20 2xl:py-24'>
+    <section
+      id='contact'
+      className='scroll-mt-20 border-t border-white/10 py-10 sm:py-18 md:py-20 2xl:scroll-mt-24 2xl:py-24'
+    >
       <div className='mx-auto w-full max-w-6xl 2xl:max-w-410 px-7 md:px-10 2xl:px-16'>
         <p className='mb-3 text-xs uppercase tracking-[0.28em] text-neutral-400 2xl:mb-4 2xl:text-sm 2xl:tracking-[0.3em]'>
           Contact
