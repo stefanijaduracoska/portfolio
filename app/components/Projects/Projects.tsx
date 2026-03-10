@@ -86,7 +86,7 @@ export const Projects = () => {
               onClick={() => scrollByCard('left')}
               className='absolute left-0 top-1/2 z-10 hidden -translate-x-full -translate-y-1/2 items-center justify-center text-white/70 transition hover:text-white lg:flex'
             >
-              <ChevronLeft className='h-10 w-10 -mr-2 2xl:h-12 2xl:w-12' />
+              <ChevronLeft className='h-10 w-10 -mr-2 2xl:h-12 2xl:w-12 hover:cursor-pointer' />
             </button>
           )}
 
@@ -97,7 +97,7 @@ export const Projects = () => {
               onClick={() => scrollByCard('right')}
               className='absolute right-0 top-1/2 z-10 hidden translate-x-full -translate-y-1/2 items-center justify-center text-white/70 transition hover:text-white lg:flex'
             >
-              <ChevronRight className='h-10 w-10 -ml-2 2xl:h-12 2xl:w-12' />
+              <ChevronRight className='h-10 w-10 -ml-2 2xl:h-12 2xl:w-12 hover:cursor-pointer' />
             </button>
           )}
 
