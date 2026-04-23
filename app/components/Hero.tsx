@@ -31,7 +31,7 @@ export const Hero = () => {
 
           <div className='mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap 2xl:mt-14 2xl:gap-5'>
             <a
-              href='/Stefanija-Duracoska-Resume.pdf'
+              href='/Duracoska-Stefanija-Resume.pdf'
               download
               className='inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-xs font-medium text-black transition duration-300 hover:scale-[1.03] sm:w-auto 2xl:px-8 2xl:py-4 2xl:text-base'
             >
