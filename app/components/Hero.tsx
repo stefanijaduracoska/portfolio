@@ -14,13 +14,13 @@ export const Hero = () => {
 
           <div className='mt-5 max-w-xs text-sm leading-7 text-neutral-200 sm:mt-6 sm:max-w-sm sm:text-base 2xl:mt-10 2xl:max-w-2xl 2xl:text-xl'>
             <p>
-              Full-Stack Software Engineer building modern web applications with
-              TypeScript, React and Node.js.
+              Backend Developer at Hubby eSIM with 3+ years of experience
+              building APIs and services in PHP/Laravel and Node.js/TypeScript.
             </p>
 
             <p className='mt-3 text-neutral-300 2xl:mt-4'>
-              Focused on clean frontend experiences and scalable backend
-              systems.
+              Focused on partner integrations and reliable backend systems
+              across banking, hospitality, telecom and travel.
             </p>
           </div>
 

@@ -3,6 +3,7 @@ import {
   Skills,
   Projects,
   Experience,
+  Education,
   Contact,
   Navbar,
   Reveal,
@@ -35,6 +36,10 @@ export default function Home() {
 
         <Reveal>
           <Projects />
+        </Reveal>
+
+        <Reveal>
+          <Education />
         </Reveal>
 
         <Reveal>

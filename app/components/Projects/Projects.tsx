@@ -73,7 +73,7 @@ export const Projects = () => {
 
             <p className='mt-3 text-sm leading-6 text-neutral-400 sm:mt-4 2xl:text-lg 2xl:leading-8'>
               A curated selection of products and systems I&apos;ve contributed
-              to across frontend, full-stack and platform-focused work.
+              to across backend, full-stack and platform-focused work.
             </p>
           </div>
         </div>

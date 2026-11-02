@@ -7,7 +7,7 @@ import { techStack } from './utils/techStack';
 
 export const Skills = () => {
   const [activeKey, setActiveKey] =
-    useState<(typeof techStack)[number]['key']>('frontend');
+    useState<(typeof techStack)[number]['key']>('languages');
 
   const activeGroup = useMemo(
     () => techStack.find((group) => group.key === activeKey) ?? techStack[0],

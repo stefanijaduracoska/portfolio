@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Speech Analytics Platform',
     description:
-      'Frontend interfaces and data visualizations for a speech analytics platform used by a major bank in Poland.',
+      'Data visualizations of speech transcription and analytics data for one of the largest banks in Poland.',
     primaryTech: ['React', 'TypeScript', 'TanStack Query'],
     secondaryTech: [
       'Tailwind CSS',
@@ -16,7 +16,7 @@ export const projects = [
   {
     title: 'Contact Center System',
     description:
-      'Configuration interfaces for managing system parameters and platform settings in an enterprise contact-center platform.',
+      'Platform configuration features for an enterprise contact-center system used across Europe.',
     primaryTech: ['React', 'Next.js', 'TypeScript', 'tRPC Client'],
     secondaryTech: [
       'Tailwind CSS',
@@ -31,7 +31,7 @@ export const projects = [
   {
     title: 'Hotel IPTV Platform',
     description:
-      'Full-stack features for an IPTV platform used on smart TVs in hotel rooms.',
+      'Node.js backend services and APIs for an IPTV platform used on smart TVs in hotels across Europe.',
     primaryTech: ['React', 'NestJS', 'PostgreSQL'],
     secondaryTech: [
       'TypeScript',
@@ -46,26 +46,11 @@ export const projects = [
   {
     title: 'Fitness Coaching SaaS',
     description:
-      'A platform for coaches to manage clients, training programs and nutrition plans.',
+      'Backend features for a SaaS platform where coaches manage clients, training and nutrition plans.',
     primaryTech: ['React', 'NestJS', 'PostgreSQL'],
     secondaryTech: [
       'TypeScript',
       'Material UI',
-      'Node.js',
-      'TypeORM',
-      'REST APIs',
-      'JWT Authentication',
-      'Zod',
-    ],
-  },
-  {
-    title: 'Organic Food Marketplace',
-    description:
-      'An online marketplace allowing local farmers and vendors to sell food products directly to customers.',
-    primaryTech: ['React', 'LoopBack 4', 'PostgreSQL'],
-    secondaryTech: [
-      'TypeScript',
-      'Tailwind CSS',
       'Node.js',
       'TypeORM',
       'REST APIs',

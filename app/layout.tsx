@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Stefanija Duracoska',
-  description: 'Full-Stack Software Engineer',
+  description: 'Backend Developer at Hubby eSIM',
 };
 
 export default function RootLayout({
