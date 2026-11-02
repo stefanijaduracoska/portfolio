@@ -58,4 +58,19 @@ export const projects = [
       'Zod',
     ],
   },
+  {
+    title: 'Organic Food Marketplace',
+    description:
+      'Backend services and APIs for an online marketplace where local farmers and vendors list and sell food products, covering listings, ordering and user accounts.',
+    primaryTech: ['React', 'LoopBack 4', 'PostgreSQL'],
+    secondaryTech: [
+      'TypeScript',
+      'Tailwind CSS',
+      'Node.js',
+      'TypeORM',
+      'REST APIs',
+      'JWT Authentication',
+      'Zod',
+    ],
+  },
 ];
